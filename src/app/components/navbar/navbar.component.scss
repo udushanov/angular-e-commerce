@@ -1,0 +1,33 @@
+.pre-navbar {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__content {
+    display: flex;
+    gap: 10px;
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+  }
+
+  &__text {
+    margin-bottom: 0;
+  }
+}
+
+.navbar {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  right: 0;
+
+  &__container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
